@@ -7,11 +7,14 @@
 # alias phpstorm='open -a /Applications/PhpStorm.app "`pwd`"'
 # alias shrug="echo '¯\_(ツ)_/¯' | pbcopy"
 alias c="clear"
+alias node6="brew unlink node@10 && brew link node@6 --overwrite --force"
+alias node10="brew unlink node@6 && brew link node@10 --overwrite --force"
 
 # Directories
 alias dotfiles="cd $DOTFILES"
 alias library="cd $HOME/Library"
 alias sites="cd $HOME/Sites"
+alias pg="cd $HOME/pg"
 
 # Laravel
 # alias a="php artisan"
@@ -39,3 +42,6 @@ alias gst="git status"
 alias gc="git checkout"
 alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
+
+# SSH
+alias sshcst="ssh richmed@10.29.20.113"

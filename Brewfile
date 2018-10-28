@@ -24,7 +24,8 @@ brew 'zsh-completions'
 # brew 'php'
 # brew 'imagick'
 # brew 'mysql'
-brew 'node'
+brew 'node@6'
+brew 'ffmpeg@4'
 
 # Apps
 # cask 'aerial'
@@ -69,10 +70,10 @@ cask 'vlc'
 # cask 'qlstephen'
 
 # Fonts
-# cask 'font-source-code-pro-for-powerline'
-# cask 'font-source-code-pro'
-# cask 'font-source-sans-pro'
-# cask 'font-source-serif-pro'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
 
 # Mac App Store
 # mas '1Password', id: 1333542190
