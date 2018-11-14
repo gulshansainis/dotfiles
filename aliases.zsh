@@ -45,3 +45,5 @@ alias gl="git log --oneline --decorate --color"
 
 # SSH
 alias sshcst="ssh richmed@10.29.20.113"
+alias gce-mongodb="ssh -i ~/.ssh/mongodb gulshan_saini@104.196.40.153"
+alias start-mongodb="mongod --dbpath ~/mongodb/data/db"
