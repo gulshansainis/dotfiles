@@ -42,6 +42,7 @@ alias gst="git status"
 alias gc="git checkout"
 alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
+alias glg="git log --graph --oneline --decorate --all"
 
 # SSH
 alias sshcst="ssh richmed@10.29.20.113"
