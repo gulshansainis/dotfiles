@@ -25,6 +25,7 @@ brew 'zsh-completions'
 # brew 'imagick'
 # brew 'mysql'
 brew 'node@6'
+brew 'node@10'
 brew 'ffmpeg@4'
 
 # Apps
