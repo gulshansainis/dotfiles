@@ -62,6 +62,7 @@ cask 'visual-studio-code'
 # cask 'virtualbox'
 # cask 'virtualbox-extension-pack'
 cask 'vlc'
+cask 'iterm2'
 
 # Quicklook
 # cask 'qlcolorcode'
