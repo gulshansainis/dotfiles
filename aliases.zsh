@@ -44,9 +44,12 @@ alias gd="git diff"
 alias gl="git log --oneline --decorate --color"
 alias glg="git log --graph --oneline --decorate --all"
 
+# local server
+alias server="python -m SimpleHTTPServer 8000"
+
 # SSH
 alias sshcst="ssh richmed@10.29.20.113"
 alias gce-mongodb="ssh -i ~/.ssh/mongodb gulshan_saini@104.196.40.153"
 alias start-mongodb="mongod --dbpath ~/mongodb/data/db"
 alias sshtdv="ssh -i ~/.ssh/techdevguide thete182@77.104.142.193 -p18765"
-alias deploytdv="scp -r -P 18765 -i ~/.ssh/techdevguide /Users/gulshansaini/home/p/devblog/public/* thete182@77.104.142.193:/home/thete182/www/techdevguide.com/"
+alias deploytdv="scp -r -P 18765 -i ~/.ssh/techdevguide /Users/gulshansaini/personal/projects/techdevguide/public/* thete182@77.104.142.193:/home/thete182/www/techdevguide.com/"
